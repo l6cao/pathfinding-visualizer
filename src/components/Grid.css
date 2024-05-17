@@ -1,0 +1,56 @@
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.grid-and-controls {
+  display: flex;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.controls button {
+  margin-bottom: 10px;
+}
+
+.hint {
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+.grid {
+  border-collapse: collapse;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+}
+
+.cell-start {
+  background-color: green;
+}
+
+.cell-end {
+  background-color: red;
+}
+
+.cell-wall {
+  background-color: black;
+}
+
+.cell-path {
+  background-color: yellow;
+}
